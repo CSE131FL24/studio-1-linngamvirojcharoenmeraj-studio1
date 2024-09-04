@@ -9,14 +9,16 @@ import java.util.Scanner;
 public class HiFour {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("Greetings Cormen, ");
+		System.out.print("What is your name?");
 		String s0 = in.nextLine();
-		System.out.print("Leiserson, ");
+		System.out.print("What is your name?");
 		String s1 = in.nextLine();
-		System.out.print("Rivest, ");
+		System.out.print("What is your name?");
 		String s2 = in.nextLine();
-		System.out.print("and Stein");
+		System.out.print("What is your name?");
 		String s3 = in.nextLine();
+		
+		System.out.println ("Greetings " + s0 + "," + s1 + "," + s2 + "," + s3 + "!");
 		//
 		// Say hello to the names in s0 through s3.
 		//
